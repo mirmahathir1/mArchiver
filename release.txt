@@ -1,0 +1,44 @@
+2.2.1
+Base version
+
+2.3.0
+Enabled recursive encoding
+
+2.4.0
+Enabled recursive decoding
+
+2.4.1
+create name encoding and decoding functions
+replace code repeatation with the functions
+
+2.4.2
+whenever a folder gets zipped by mArchiver, create a .zip file, rename it to .mzip and encrypt
+after unzipping a file, if the file is of .mzip, rename it to .zip and then extract
+
+2.4.3
+if a gpg file is found in the recursive file encryption, don't call the lock.sh script for that file
+if a regular file is found in the recursive file decryption, don't call the lock.sh script for that file
+
+2.4.4
+fix the gui issue where the encrypted name sometimes overflows, and create GUI size variables
+
+2.4.5
+force the user to maximize the terminal if the terminal is not maximized
+
+2.5.0
+create a setup script
+
+2.5.1
+fixed minor bugs
+
+Future Release
+--------------
+
+2.6.0
+enable permanent delete option
+
+2.7.0
+create script for compiling the mArchiver into a binary file
+
+
+
